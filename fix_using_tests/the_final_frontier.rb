@@ -14,7 +14,7 @@ end
 def greet_crew (crew)
   newarr = []
   crew.each {|crew_member| newarr.append("Hello #{crew_member}.")}
-  return arr 
+  return newarr 
 end
 
 def engage
